@@ -1,0 +1,40 @@
+<nav class="level columns is-flex-mobile flex-reverse">
+  <section class="section column is-half">
+    <div>
+      <a routerLink="/" class="link is-info color-primary-invert font-type--cursive">
+        <h1>{{ header.firstName }}&nbsp;{{ header.lastName }},</h1>
+        <span>&nbsp;</span>
+        <h2>{{ header.academia }}</h2>
+      </a>
+      <p class="font-size--small color-primary-invert letter-space--2">{{ header.subTitle }}</p>
+    </div>
+  </section>
+  <section class="section level is-mobile">
+
+    <a class="level-item has-text-centered color-primary-invert link is-info">
+
+      <i class="material-icons">
+        contact_phone
+      </i>
+      <span class="is-hidden-touch">{{ header.phone }}</span>
+
+    </a>
+    <a class="level-item has-text-centered color-primary-invert link is-info">
+
+      <i class="material-icons">
+        email
+      </i>
+      <span class="is-hidden-touch">{{ header.email }}</span>
+    </a>
+
+    <a class="level-item has-text-centered color-primary-invert link is-info">
+
+      <i class="material-icons">
+        map
+      </i>
+      <span class="is-hidden-touch is-visible-">{{ header.map }}</span>
+    </a>
+
+  </section>
+
+</nav>

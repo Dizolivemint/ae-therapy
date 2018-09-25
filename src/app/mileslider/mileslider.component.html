@@ -1,0 +1,13 @@
+<section>
+  <div class="fader">
+    <ul class="slides" [ngStyle]="{'width': bgWidth, 'animation': bgFader, 'left': bgLeft}">
+      <li *ngFor="let image of images" class="fader-image " [ngStyle]="{'background': 'url(' + image + ') no-repeat scroll center center','width': bgWidth}"></li>
+    </ul>
+  </div>
+  <div class="box">
+    <figure class="image is-square">
+      <img class="is-border--black is-200px is-position__absolute--custom" src="../../assets/images/amelia-exner_618x618.jpg" title="Amelia Exner, Mariage and Family Therapist, Depth Psychologist"
+      />
+    </figure>
+  </div>
+</section>

@@ -1,0 +1,54 @@
+@import "../../assets/sass/abstracts/functions"
+@import "../../assets/sass/base/all"
+@import "../../assets/sass/layout/header"
+// @import "../../node_modules/bulma/sass/utilities/all"
+// @import "../../node_modules/bulma/sass/grid/columns"
+// @import "../../node_modules/bulma/sass/base/helpers"
+@import "../../../node_modules/bulma/bulma"
+@import "../../assets/sass/themes/colors-ae"
+@import "../../../node_modules/blaze/scss/src/utilities.alignment"
+
+.header-wrap
+    margin: auto
+    padding: 1rem
+    max-width: 1280px
+    width: 80%
+
+i
+    font-size: 4rem
+    padding: 1rem
+
+.level
+    align-items: center
+    justify-content: flex-start
+
+h1
+    font-size: 4.5rem
+
+h2
+    font-size: 3.5rem
+
+h3
+    font-size: 2.5rem
+
+.is-info
+    h1, h2
+        display: inline
+
+.level-item
+    span
+        font-size: 1.5rem
+
+.level
+    +mobile
+        align-items: flex-start
+
+.flex-reverse
+    +mobile
+        flex-direction: column-reverse
+
+a
+    &:hover
+        color: #ffffff
+        transform: scale(1.1)
+        transition: all .2s ease-in-out

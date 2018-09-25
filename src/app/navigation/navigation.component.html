@@ -1,0 +1,40 @@
+<div class="navigation">
+  <input #navigation type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+  <label for="navi-toggle" class="navigation__button">
+    <span class="navigation__icon">&nbsp;</span>
+  </label>
+
+  <nav class="navigation__background navigation__nav">
+    <ul class="navigation__list">
+      <h1>Past</h1>
+      <li class="navigation__item">
+        <a (click)="close(navigation)" routerLinkActive="active" routerLink="past/experience" class="navigation__link">Experience</a>
+      </li>
+      <li class="navigation__item">
+        <a (click)="close(navigation)" routerLinkActive="active" routerLink="past/about" class="navigation__link">About me</a>
+      </li>
+      <h1>Present</h1>
+      <li class="navigation__item">
+        <a (click)="close(navigation)" routerLinkActive="active" routerLink="present/vision" class="navigation__link">Vision</a>
+      </li>
+      <li class="navigation__item">
+        <a (click)="close(navigation)" routerLinkActive="active" routerLink="present/therapy" class="navigation__link">Therapy</a>
+      </li>
+      <li class="navigation__item">
+        <a (click)="close(navigation)" routerLinkActive="active" routerLink="present/clientelle" class="navigation__link">Clientelle</a>
+      </li>
+      <li class="navigation__item">
+        <a (click)="close(navigation)" routerLinkActive="active" routerLink="present/rates" class="navigation__link">Rates</a>
+      </li>
+      <h1>Future</h1>
+      <li class="navigation__item">
+        <a (click)="close(navigation)" routerLinkActive="active" routerLink="future/fulfillment" class="navigation__link">Fulfillment</a>
+      </li>
+      <li class="navigation__item">
+        <a (click)="close(navigation)" routerLinkActive="active" routerLink="future/contact" class="navigation__link">Contact me</a>
+      </li>
+
+    </ul>
+  </nav>
+</div>
