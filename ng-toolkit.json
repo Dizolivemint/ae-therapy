@@ -3,5 +3,16 @@
     "skipInstall": false,
     "directory": ".",
     "project": "ae-therapy"
+  },
+  "serverless": {
+    "provider": "firebase",
+    "firebaseProject": "amelia-exner",
+    "skipInstall": false,
+    "directory": ".",
+    "project": "ae-therapy",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
   }
 }

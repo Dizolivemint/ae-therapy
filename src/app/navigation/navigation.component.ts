@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
+  close(navigation) {
+    navigation.checked = false;
+  }
+  
   constructor() { }
 
   ngOnInit() {
