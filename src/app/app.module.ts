@@ -31,10 +31,9 @@ import { PageTherapyComponent } from './page-therapy/page-therapy.component';
     PageTherapyComponent
   ],
   imports:[
- CommonModule,
-NgtUniversalModule,
- 
-    
+    BrowserModule.withServerTransition({appId: "app-root"}),
+    CommonModule,
+    NgtUniversalModule,
     AppRoutingModule
   ],
   providers: [],
