@@ -1,9 +1,0 @@
-@import "settings";
-
-@mixin disabled {
-  &:disabled,
-  &[disabled] {
-    cursor: not-allowed;
-    opacity: $disabled-opacity;
-  }
-}

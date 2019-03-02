@@ -1,0 +1,12 @@
+@import "mixins/settings";
+@import "mixins/utilities.typography";
+
+.c-address {
+  @include paragraph;
+  font-style: $address-font-style;
+}
+
+.c-address__heading {
+  display: block;
+  font-weight: $address-heading-font-weight;
+}
